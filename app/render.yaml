@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: webocis
+    env: docker
+    plan: free
+    branch: main
+    envVars:
+      - key: APP_DEBUG
+        value: false
